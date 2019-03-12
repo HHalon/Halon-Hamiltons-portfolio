@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,500i,700");
+
+body {
+  overflow-x: hidden;
+  font-family: "Cabin", sans-serif;
+  color: #656566;
+}
+/*--navigation --*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand {
+  height: 2rem;
+  color: orange;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navabar-nav .navbar-dark .navbar-link {
+  color: #dea757;
+  padding-top: 0.8rem;
+}
+
+.navabar-nav .navbar-dark .navbar-link.active,
+.navabar-nav .navbar-dark .navbar-link:hover {
+  color: #dea757;
+}
+
+/*--start landing page--*/
+
+.home-inner {
+  background-image: url(assets/images/Backgrounds-photography-background-photo-PixTeller.png);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem orange;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem orange;
+  padding-bottom: 1rem;
+}
