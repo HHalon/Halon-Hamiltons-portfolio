@@ -5,6 +5,11 @@ body {
   font-family: "Cabin", sans-serif;
   color: #656566;
 }
+
+.offset :before {
+  display: block;
+  color: #656566;
+}
 /*--navigation --*/
 
 .navbar {
@@ -62,4 +67,51 @@ body {
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem orange;
   padding-bottom: 1rem;
+}
+
+/*--start about me--*/
+
+.narrow {
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3 .heading {
+  font-size: 1.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.heading-underline {
+  width: 10rem;
+  height: 0.2rem;
+  background-color: orange;
+  margin: 0 auto 2rem;
+}
+
+.fixed {
+  background-image: url(assets/images/Backgrounds-photography-background-photo-PixTeller.png);
+}
+
+.fixed-background h3,
+h1,
+i,
+a {
+  margin-bottom: 2rem;
+  color: orange;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.footer {
+  margin: 0;
+  padding: 5rem 0 3.5rem;
+  background-color: black;
+  color: orange;
+  text-align: center;
 }
